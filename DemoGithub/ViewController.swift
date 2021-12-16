@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         var count = 100
         var name = 50
 
-        
+        var string = "ramesh"
 
         let myFirstLabel = UILabel()
           let myFirstButton = UIButton()
