@@ -12,7 +12,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        
         var count = 100
         let myFirstLabel = UILabel()
           let myFirstButton = UIButton()
@@ -26,6 +25,7 @@ class ViewController: UIViewController {
           myFirstButton.setTitleColor(.blue, for: .normal)
           myFirstButton.frame = CGRect(x: 15, y: -50, width: 300, height: 500)
           myFirstButton.addTarget(self, action: #selector(pressed), for: .touchUpInside)
+         myFirstButton.backgroundColor = UIColor.red
         
         
     }
