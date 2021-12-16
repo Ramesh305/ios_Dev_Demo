@@ -14,6 +14,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         var count = 50
+        var name = 100
         let myFirstLabel = UILabel()
           let myFirstButton = UIButton()
           myFirstLabel.text = "I made a label on the screen #toogood4you"
